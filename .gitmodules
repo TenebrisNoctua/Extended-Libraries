@@ -19,3 +19,27 @@
 [submodule "extern/libuv"]
 	path = extern/libuv
 	url = https://github.com/libuv/libuv
+[submodule "libraries/zip"]
+	path = libraries/zip
+	url = https://github.com/TenebrisNoctua/Zip
+[submodule "libraries/os"]
+	path = libraries/os
+	url = https://github.com/TenebrisNoctua/OS
+[submodule "libraries/baseobject"]
+	path = libraries/baseobject
+	url = https://github.com/TenebrisNoctua/BaseObject
+[submodule "libraries/process"]
+	path = libraries/process
+	url = https://github.com/TenebrisNoctua/Process
+[submodule "libraries/color"]
+	path = libraries/color
+	url = https://github.com/TenebrisNoctua/Color
+[submodule "libraries/udim"]
+	path = libraries/udim
+	url = https://github.com/TenebrisNoctua/UDim
+[submodule "libraries/rect"]
+	path = libraries/rect
+	url = https://github.com/TenebrisNoctua/Rect
+[submodule "libraries/udc"]
+	path = libraries/udc
+	url = https://github.com/TenebrisNoctua/UDC
