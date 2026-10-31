@@ -2,12 +2,19 @@
 # from the release's through LUWOW_LIBRARY_DIRS for static builds. luwow_add_library comes from the SDK or
 # the release's sources, ENGINE_ROOT and Luau.VM likewise.
 
-set(GUI_ROOT ${CMAKE_CURRENT_LIST_DIR}/gui)
 set(TASK_ROOT ${CMAKE_CURRENT_LIST_DIR}/task)
 set(FS_ROOT ${CMAKE_CURRENT_LIST_DIR}/fs)
 set(IO_ROOT ${CMAKE_CURRENT_LIST_DIR}/io)
 set(NET_ROOT ${CMAKE_CURRENT_LIST_DIR}/net)
 set(SIGNAL_ROOT ${CMAKE_CURRENT_LIST_DIR}/signal)
+set(BASEOBJECT_ROOT ${CMAKE_CURRENT_LIST_DIR}/baseobject)
+set(COLOR_ROOT ${CMAKE_CURRENT_LIST_DIR}/color)
+set(OS_ROOT ${CMAKE_CURRENT_LIST_DIR}/os)
+set(PROCESS_ROOT ${CMAKE_CURRENT_LIST_DIR}/process)
+set(RECT_ROOT ${CMAKE_CURRENT_LIST_DIR}/rect)
+set(UDIM_ROOT ${CMAKE_CURRENT_LIST_DIR}/udim)
+set(ZIP_ROOT ${CMAKE_CURRENT_LIST_DIR}/zip)
+set(UDC_ROOT ${CMAKE_CURRENT_LIST_DIR}/UDC)
 set(LIBUV_ROOT ${CMAKE_CURRENT_LIST_DIR}/../extern/libuv)
 
 set(LUWOW_LIBRARIES task fs io signal net)

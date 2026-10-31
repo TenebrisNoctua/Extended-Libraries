@@ -1,6 +1,3 @@
-[submodule "libraries/gui"]
-	path = libraries/gui
-	url = https://github.com/Luwow-Project/GUI
 [submodule "libraries/task"]
 	path = libraries/task
 	url = https://github.com/Luwow-Project/Task
