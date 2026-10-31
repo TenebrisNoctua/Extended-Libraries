@@ -14,13 +14,10 @@ set(PROCESS_ROOT ${CMAKE_CURRENT_LIST_DIR}/process)
 set(RECT_ROOT ${CMAKE_CURRENT_LIST_DIR}/rect)
 set(UDIM_ROOT ${CMAKE_CURRENT_LIST_DIR}/udim)
 set(ZIP_ROOT ${CMAKE_CURRENT_LIST_DIR}/zip)
-set(UDC_ROOT ${CMAKE_CURRENT_LIST_DIR}/UDC)
+set(UDC_ROOT ${CMAKE_CURRENT_LIST_DIR}/udc)
 set(LIBUV_ROOT ${CMAKE_CURRENT_LIST_DIR}/../extern/libuv)
 
-set(LUWOW_LIBRARIES task fs io signal net)
-if(WIN32 OR APPLE)
-    list(PREPEND LUWOW_LIBRARIES gui)
-endif()
+set(LUWOW_LIBRARIES task fs io signal net baseobject color os process rect udim zip udc)
 
 # Each library's DLL from its src folder, and its types, scripts/<name>.luau,
 # into a types folder besides the libraries folder.
