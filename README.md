@@ -45,7 +45,7 @@ cmake --build build --config Release
 
 They're written to `build/libraries` (`build/libraries/Release` with Visual Studio). For another release:
 ```bash
-cmake -S . -B build -D RELEASE_VERSION=v2026.10.31
+cmake -S . -B build -D RELEASE_VERSION=v2026.11.07
 ```
 
 Executables with the libraries bound in:
